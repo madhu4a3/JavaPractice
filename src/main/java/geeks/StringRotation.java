@@ -13,7 +13,7 @@ class StringRotation
         // a substring of str1 concatenated with str1.  
     	System.out.println("index is:"+ (str1 + str1).indexOf(str2));
         return (str1.length() == str2.length()) &&
-               ((str1 + str1).indexOf(str2) == 1);
+               ((str1 + str1).indexOf(str2) !=  -1);
     }
      
     // Driver method
